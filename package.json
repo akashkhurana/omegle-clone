@@ -1,0 +1,14 @@
+{
+  "name": "omegle-clone",
+  "version": "1.0.0",
+  "description": "A Omegle-like video chat application",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix backend && npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
