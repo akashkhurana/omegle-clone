@@ -50,7 +50,3 @@ npm run dev
 
 - `/frontend`: React application built with Vite.
 - `/backend`: Node.js/Express server handling socket connections.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
